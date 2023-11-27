@@ -11,12 +11,12 @@
     <!-- Bootstrap JS and Popper.js (required for Bootstrap) -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    
+
     <link rel="stylesheet" href="main.css">
-    
+
     <style>
      .custom-navbar-brand {
-       
+
      }
      body {
        background-color: #000000;
@@ -38,41 +38,50 @@
        vertical-align: top;
       border-top: 6px solid #198754;
       border-bottom: 7px solid #198754;
-      
-      
+
+
      }
      ul {
        color:white;
        font-size: 2.7vw;
      }
-     .animeimg{
-       text-align: center;
-     }
-     .trailer{
-       align-items: center;
-     }
+     .animeimg img {
+  width: 80%; /* Make the image fill its container */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 100%; /* Ensure the image doesn't exceed its original size */
+}
+
+.animeimg {
+  text-align: center;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+   .trailer {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+  padding-top: 56%; 
+  margin: 0 auto;
+  /* 16:9 aspect ratio (adjust as needed) */
+}
+
+.trailer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  width: 100%;
+  height: 100%;
+}
      p {
        color:white;
-       font-size: 2.7vw;
+       font-size: 2.5vw;
        margin-left: 10px;
        margin-right: 10px;
      }
   .foot {
        background-color: slategray; 
      }
-.iframe-container {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%; /* 16:9 aspect ratio (change this percentage based on your aspect ratio) */
-}
 
-.iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 90;
-  height: auto;
-}
     </style>
 </head>
 <body>
@@ -115,11 +124,11 @@
     <!--image header -->
  <div class="container-fluid">
         <h1 style="color: white; text-align: center;">Top 5 Anime Films by Makoto Shinkai</h1>
-       
+
         <!-- Add your responsive image -->
         <img src="img/himg.png" alt="AniReview Image" class="img-fluid">
     </div>
-    
+
     <p>  Makoto Shinkai is one of the greatest anime directors of all time. He started directing in 1998, and since then, he has produced many outstanding movies that have been nominated for multiple awards.</p>
     <br>
     <p>Makoto Shinkai's films resonate with audiences due to their personal touch, drawing from his own experiences. In addition to his directorial role, Shinkai's involvement in various aspects of filmmaking highlights his dedication. While he boasts an impressive filmography, determining his best work is subjective. 
@@ -128,7 +137,7 @@
 The recent global release of Shinkai's "Suzume" has received positive reviews, maintaining his reputation for delivering visually stunning movies with captivating soundtracks. Fans worldwide eagerly anticipate each new project announcement from Makoto Shinkai, and the inclusion of "Suzume" prompts a revisiting of his filmography for comparison.</p>
     <br>
       <br>
-      
+
    <!-- number 5-->
 
     <p class="item-num">5</p>
@@ -144,12 +153,11 @@ The recent global release of Shinkai's "Suzume" has received positive reviews, m
           </div>
           <br>
                    <br>
-   </div class="iframe-container">      
  <div class="trailer text-center">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/5pTcio2hTSw?si=yWbbIiCEC-LyHY3S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
 </div>
-          
+
    <br>
    <br>
       <!-- number 4-->
@@ -166,11 +174,9 @@ Shinkai's artistry takes center stage in this film, showcasing his talent for ca
             </div>
             <br>
                      <br>
- </div class="iframe-container">
             <div class="trailer text-center">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/udDIkl6z8X0?si=vyw4zZGcCmiCksfV&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-</div>
 
            <br>
               <br>
@@ -188,12 +194,12 @@ The animation carries an underrated wistfulness, portraying characters who are r
             </div>
             <br>
             <br>
- </div class="iframe-container">
+
             <div class="trailer text-center">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/wdM7athAem0?si=HkStdU4buuToBtrv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>    
-              
+
     <br>
        <br>
          <!-- number 2-->
@@ -211,10 +217,10 @@ The film delves into themes of severed human connections, star-crossed romances,
        </div>
         <br>   
         <br>
- </div class="iframe-container">
+
         <div class="trailer text-center">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/3KR8_igDs1Y?si=93K7GctzDyDFK9JB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>     
+   
  </div>
      <br>
         <br>
@@ -233,10 +239,9 @@ The film delves into themes of severed human connections, star-crossed romances,
          </div>
          <br>
          <br>
- </div class="iframe-container">
 <div class="trailer text-center">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/LoUtJiOaoY8?si=ia-4SpRZ5X-Dryd7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
+          
 </div>
 
     <div class="container-fluid">         
